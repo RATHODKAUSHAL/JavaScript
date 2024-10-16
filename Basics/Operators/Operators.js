@@ -165,8 +165,10 @@ console.log(A > 3 && !B < 15);//output: false
 //  Bitwise operators are used to perform operations on the binary representation of the numbers. There are 6
 // bitwise operators in JavaScript.
 // 1. Bitwise AND : &
-let a = 5;
-let b = 1;
+// bitwise operator is  used to perform AND operation on the binary representation of the numbers.
+
+// let a = 5;
+// let b = 1;
 console.log(a & b);//output: 1
 
 // 2. Bitwise OR : |
@@ -191,8 +193,8 @@ console.log(a >>> 1);//output: 2.5
 // The ternary operator is a shorthand for if-else statement. It is used to make a
 // decision based on a condition and return one value if the condition is true and another value if the
 // condition is false.
-let x = 5;
-let y = x > 10 ? "x is greater than 10" : "x is less  than or equal to 10";
+// let x = 5;
+let Y = x > 10 ? "x is greater than 10" : "x is less  than or equal to 10";
 
 // 7. Comma  Operator
 // The comma operator is used to separate multiple expressions in a single statement. It returns the value of
@@ -210,22 +212,22 @@ console.log(str1 + str2);//output: "HelloWorld"
 // Unary operators are used to perform operations on a single operand. There are 6 unary operators in   
 // JavaScript.
 // 1. Increment : ++
-let a = 5;
+// let a = 5;
 console.log(++a);//output: 6
 // 2. Decrement : --
-let b = 6;
+// let b = 6;
 console.log(--b);//output: 5
 //3.  Positive : +
-let c = -5;
+// let c = -5;
 console.log(+c);//output: -5
 // 4. Negative : -
-let  d = 5;
+// let  d = 5;
 console.log(-d);//output: -5
 // 5. Logical NOT : !
-let e = true;
+// let e = true;
 console.log(!e);//output: false
 // 6.  Typeof : typeof
-let f = 5;
+// let f = 5;
 console.log(typeof f);//output: "number"
 // 7. delete  : delete
 let obj = {a: 1, b: 2, c: 3};
