@@ -9,6 +9,7 @@
  //console is a global object in js that provides methods for logging output to the console.
  //it is used to print the output of the js code in the terminal.
  console.log("Hello, World!");
+
  //various methods for console
  console.log("Hello, World!");
  console.error("Error: This is  an error");
@@ -28,5 +29,5 @@
 // javascript syntax
 //javascript syntax refers to the rules and conventions dictating how code is structured 
 // and  written in the language.
-// This includes statement,  expression, keywords, identifiers, literals, comments, and more.
+// This includes statement,  expression, keywords, identifiers, literals, comments and more.
 

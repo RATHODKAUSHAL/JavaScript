@@ -96,10 +96,5 @@
 // else{
 //     console.log("age is invalid");
 // }
-// output : number is greter than :  5
-
-let b = 1;
-let a = 20;
-
-console.log(a && b);//output: 5 
+// output : You cannot  drive / vote
 

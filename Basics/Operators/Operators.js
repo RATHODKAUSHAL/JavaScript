@@ -154,12 +154,16 @@ console.log(x == y);//output: false
 let A = 5 
 let  B = 10
 console.log(A > 3 && B < 15);//output: true
+// note : if any of the conditions is false, the whole expression will be false
 
 // 2.  OR : ||
 console.log(A > 3 || B < 15);//output: true
+// note : if any of the conditions is true, the whole expression will be true
 
 // 3. NOT : !
 console.log(A > 3 && !B < 15);//output: false
+//  note : if the condition is false, the whole expression will be true
+
 
 //5. Bitwise  Operators
 //  Bitwise operators are used to perform operations on the binary representation of the numbers. There are 6
