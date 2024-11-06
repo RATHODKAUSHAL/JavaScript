@@ -142,7 +142,3 @@ num.forEach(x => console.log(x)); //output: 2, 5, 7,
 // 23. typeOf :-  returns the type of the specified value.
 // example:-
 console.log(typeof 10); //output: number
-
-
-
-

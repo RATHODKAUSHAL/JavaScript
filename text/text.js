@@ -22,3 +22,26 @@
 // for(i  = 0; i < arr.length; i++) {
 //     console.log(arr[i]);
 // }
+
+//Example:-
+
+// function Person(name){
+//     this.name = name;
+// }
+
+// Person.prototype.getName = function(){
+//     return this.name
+// }
+
+// const p = new Person('A');
+// console.log(p.getName);
+
+// const baz = () => console.log('baz');
+// const fpp = () => console.log('foo');
+// const zoo = () => console.log('zoo');
+
+// const start = () => {
+//     console.log('start');
+//     setImmediate(baz);
+//     new
+// }
