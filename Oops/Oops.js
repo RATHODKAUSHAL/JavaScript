@@ -41,37 +41,37 @@ const car = {
 //3> Modularity: Encapsulation leads to more modular code, making it easier to maintain and extend.
 
 //Exapmle:-
-// class BankAccount{
-//     //Private Property by using # or _
-//     #balance;
+class BankAccount{
+    //Private Property by using # or _
+    #balance;
 
-//     constructor(initialBalance){
-//         this.#balance = initialBalance; //set initial balance
-//     }
+    constructor(initialBalance){
+        this.#balance = initialBalance; //set initial balance
+    }
 
-//     //Public method to deposit money
-//     deposite(amount){
-//         if(amount > 0){
-//             this.#balance += amount
-//             console.log(`Deposited: $${amount}`);
-//         }else{
-//             console.log('Deposit amount must be positive');
-//         }
-//     }
+    //Public method to deposit money
+    deposite(amount){
+        if(amount > 0){
+            this.#balance += amount
+            console.log(`Deposited: $${amount}`);
+        }else{
+            console.log('Deposit amount must be positive');
+        }
+    }
 
-//     withdraw(amount){
-//         if(amount > 0 && amount <= this.#balance){
-//             this.#balance -= amount; //Update balance
-//             console.log(`Withdrawn: $${amount}`);
-//         }else{
-//             console.log('Invalid withdrawal amount');
-//         }
-//     }
+    withdraw(amount){
+        if(amount > 0 && amount <= this.#balance){
+            this.#balance -= amount; //Update balance
+            console.log(`Withdrawn: $${amount}`);
+        }else{
+            console.log('Invalid withdrawal amount');
+        }
+    }
 
-//     getBalance(){
-//         return  this.#balance; //Return current balance 
-//     }
-// }               
+    getBalance(){
+        return  this.#balance; //Return current balance 
+    }
+}               
 
 // //Usage
 // const myAccount = new BankAccount(100);//Craete a new account with $100
@@ -126,9 +126,11 @@ function makeAnimalSpeak(animal){
 
 const dog = new Dog();
 const cat = new Cat();
+const animal = new Animal();
 
 makeAnimalSpeak(dog);//output: The dog barks
 makeAnimalSpeak(cat);// Output: The cat meows.
+makeAnimalSpeak(animal);// Output: The cat meows.
 
 const math = new MathOperations();
 console.log(math.add(5, 10)); // Output: 15
