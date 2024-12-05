@@ -1,6 +1,6 @@
 //javascript is a loosely typed or dynamically typed language.
 // it means that we don't need to declare the data type of a variable before using it.
-// js data type are categorized into two parts : primitive and non-primitive data types.
+// js datatype are categorized into two parts : primitive and non-primitive data types.
 // primitive datatype : number, string,  boolean, null, undefined, symbol, bigInt.
 // non-primitive datatype :  array, object, set, map, weakset, weakmap.
 

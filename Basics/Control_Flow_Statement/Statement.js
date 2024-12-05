@@ -5,7 +5,7 @@
 // return statement can be used with or without value.
 // return statement can be used with or without arguments.
 
-//exampe: 
+//example: 
 let count = 0;
 
 function counter() {
@@ -72,7 +72,7 @@ function divide(a, b) {
         return a / b;
 }
 try {
-    console.log(divide(10,3));
+    console.log(divide(10,0));
 } catch (error) {
     console.log(error);
 }

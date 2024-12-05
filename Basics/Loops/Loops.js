@@ -5,8 +5,8 @@
 // 1. For Loop :- The for loop is used to execute a block of code repeatedly for
 // a specified number of times. It consists of three parts: initialization, condition, and increment/decrement.
 //exmaple:-
-let count; 
-for (let count = 0; count < 10; count++) {
+let count = 0; 
+for (count; count < 10; count++) {
     console.log(count)
 }
 // output :- 0,1,2,3,4,5,6,7,8,9
@@ -31,7 +31,7 @@ do {
     console.log(counter)
     counter++;
     } while (counter < 10);
-    // output :- 0,1,2,3,4,5,6,7
+    // output :- 0,1,2,3,4,5,6,7,8,9
 
 //4.   For-In Loop :- The for-in loop is used to iterate over the properties of an object.
 //example:-
